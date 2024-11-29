@@ -61,6 +61,6 @@ def visualize_karatsuba_tree(tree):
     # Draw graph
     labels = nx.get_node_attributes(G, "label")
     plt.figure(figsize=(12, 8))
-    nx.draw(G, pos, labels=labels, with_labels=True, node_size=3000, node_color="lightblue", font_size=8, font_weight="bold", font_color="black")
+    nx.draw(G, pos, labels=labels, with_labels=True, node_size=5000, node_color="lightblue", font_size=8, font_weight="bold", font_color="black")
     plt.title("Karatsuba Recursion Tree Visualization")
     plt.show()
